@@ -1,0 +1,24 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+img.round {
+  border-radius: 50%;
+}
+
+.callout-inner.blue-border {
+  border: 2px solid $primary-color;
+}
+
+p.body-text {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th.callout-inner.blue-solid {
+  background: $light-blue;
+  border: 1px solid $light-blue;
+  color: #0a0a0a;
+}
