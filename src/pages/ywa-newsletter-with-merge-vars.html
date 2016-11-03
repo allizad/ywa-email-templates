@@ -9,7 +9,7 @@ subject: Young Women's Alliance Newsletter
       <p><small>Young Women's Alliance</small></p>
     </columns>
     <columns small="6">
-      <p class="text-right"><small><a href="">View this email in your browser</a></small></p>
+      <p class="text-right"><small><a href="*|ARCHIVE|*">View this email in your browser</a></small></p>
     </columns>
   </row>
 </container>
@@ -31,8 +31,8 @@ subject: Young Women's Alliance Newsletter
 
         <spacer size="32"></spacer>
 
-        <h2 class="text-center primary text-blue"><i><b>Speaker Series</b></i></h2>
-        <h2 class="text-center primary" md:edit="speaker_name"><i><b>Jessica Luther</b></i></h2>
+        <h1 class="text-center text-blue" style="margin-bottom: 0;"><i>Speaker Series:</i></h1>
+        <h1 class="text-center text-blue"><i mc:edit="speaker_name">Jessica Luther</i></h1>
 
         <spacer size="16"></spacer>
 
@@ -43,12 +43,12 @@ subject: Young Women's Alliance Newsletter
         <spacer size="32"></spacer>
 
         <center>
-          <img mc:edit="speaker_headshot" class="round" src="http://placehold.it/200x200/663399" alt="">
+          <img mc:edit="speaker_headshot" class="round" src="http://placehold.it/200x200/F1EB16" alt="">
         </center>
 
         <spacer size="32"></spacer>
 
-        <h5 class="text-center" mc:edit="speaker_time"><strong><i><small>Wednesday, October 19th, 6:30PM at Chateau Bellevue</small></i></strong></h5>
+        <h4 class="text-center"><i><small mc:edit="speaker_time">Wednesday, October 19th, 6:30PM at Chateau Bellevue</small></i></h4>
 
         <spacer size="16"></spacer>
 
@@ -60,8 +60,10 @@ subject: Young Women's Alliance Newsletter
            fourth Wednesday of August to hear and update your voter registration!
         </p>
 
+        <spacer size="8"></spacer>
+
         <center mc:edit="speaker_cta">
-          <button class="primary large" href="http://zurb.com">Reserve your spot!</button>
+          <button class="primary" href="http://zurb.com">RESERVE YOUR SPOT</button>
         </center>
       </callout>
 
@@ -76,71 +78,83 @@ subject: Young Women's Alliance Newsletter
 
   <!-- Event 1 -->
   <row mc:repeatable>
-    <columns small="6" mc:edit="event1_body">
-      <h4><i><b>New Member Brunch</b></i></h4>
-      <i class="serif-font-family"><b><small>Sunday, August 14, 11AM-1PM at BlackFinn Ameripub</small></b></i>
+    <columns small="12" large="6" mc:edit="event1_body">
+      <center class="text-center">
+        <h3 class="text-center"><i>New Member Brunch</i></h3>
+        <i class="serif-font-family">Sunday, August 14, 11AM-1PM at BlackFinn Ameripub</i>
+      </center>
       <spacer size="8"></spacer>
       <p>New to YWA? All new members are invited to join us for brunch! Enjoy complimentary appetizers and great company, while learning more about the Young Women's Alliance and how you can be involved!</p>
-      <center><button class="primary" href="http://zurb.com">Reserve your spot!</button></center>
+      <center><button class="primary" href="http://zurb.com">RSVP</button></center>
     </columns>
-    <columns small="6">
+    <columns small="0" large="6" class="show-for-large">
+        <spacer size="16"></spacer>
       <center>
-        <img mc:edit="event1_image" class="round" src="http://placehold.it/200x200/663399" alt="">
+        <img mc:edit="event1_image" class="round" src="http://placehold.it/200x200/F1EB16" alt="">
       </center>
     </columns>
   </row><!-- /Event 1 -->
 
-  <spacer size="16"></spacer>
+  <spacer mc:repeatable size="16"></spacer>
 
   <!-- Event 2 -->
   <row mc:repeatable>
-    <columns small="6">
+    <columns small="0" large="6" class="show-for-large">
       <center>
-        <img mc:edit="event2_image" class="round" src="http://placehold.it/200x200/663399" alt="">
+        <spacer size="16"></spacer>
+        <img mc:edit="event2_image" class="round" src="http://placehold.it/200x200/F1EB16" alt="">
       </center>
     </columns>
-    <columns small="6" mc:edit="event2_body">
-      <h4><i><b>New Member Brunch</b></i></h4>
-      <i class="serif-font-family"><b><small>Sunday, August 14, 11AM-1PM at BlackFinn Ameripub</small></b></i>
+    <columns small="12" large="6" mc:edit="event2_body">
+      <center class="text-center">
+        <h3 class="text-center"><i>New Member Brunch</i></h3>
+        <i class="serif-font-family">Sunday, August 14, 11AM-1PM at BlackFinn Ameripub</i>
+      </center>
       <spacer size="8"></spacer>
       <p>New to YWA? All new members are invited to join us for brunch! Enjoy complimentary appetizers and great company, while learning more about the Young Women's Alliance and how you can be involved!</p>
-      <center><button class="primary" href="http://zurb.com">Reserve your spot!</button></center>
+      <center><button class="primary" href="http://zurb.com">RSVP</button></center>
     </columns>
   </row><!-- /Event 2 -->
 
-  <spacer size="16"></spacer>
+  <spacer mc:repeatable size="16"></spacer>
 
   <!-- Event 3 -->
   <row mc:repeatable>
-    <columns small="6" mc:edit="event3_body">
-      <h4><i><b>New Member Brunch</b></i></h4>
-      <i class="serif-font-family"><b><small>Sunday, August 14, 11AM-1PM at BlackFinn Ameripub</small></b></i>
+    <columns small="12" large="6" mc:edit="event3_body">
+      <center class="text-center">
+        <h3 class="text-center"><i>New Member Brunch</i></h3>
+        <i class="serif-font-family">Sunday, August 14, 11AM-1PM at BlackFinn Ameripub</i>
+      </center>
       <spacer size="8"></spacer>
       <p>New to YWA? All new members are invited to join us for brunch! Enjoy complimentary appetizers and great company, while learning more about the Young Women's Alliance and how you can be involved!</p>
-      <center><button class="primary" href="http://zurb.com">Reserve your spot!</button></center>
+      <center><button class="primary" href="http://zurb.com">RSVP</button></center>
     </columns>
-    <columns small="6">
+    <columns small="0" large="6" class="show-for-large">
       <center>
-        <img mc:edit="event3_image" class="round" src="http://placehold.it/200x200/663399" alt="">
+        <spacer size="16"></spacer>
+        <img mc:edit="event3_image" class="round" src="http://placehold.it/200x200/F1EB16" alt="">
       </center>
     </columns>
   </row><!-- /Event 3 -->
 
-  <spacer size="16"></spacer>
+  <spacer mc:repeatable size="16"></spacer>
 
   <!-- Event 4 -->
   <row mc:repeatable>
-    <columns small="6">
+    <columns small="0" large="6" class="show-for-large">
       <center>
-        <img mc:edit="event4_image" class="round" src="http://placehold.it/200x200/663399" alt="">
+        <spacer size="16"></spacer>
+        <img mc:edit="event4_image" class="round" src="http://placehold.it/200x200/F1EB16" alt="">
       </center>
     </columns>
-    <columns small="6" mc:edit="event4_body">
-      <h3><i><b>New Member Brunch</b></i></h3>
-      <i class="serif-font-family"><b><small>Sunday, August 14, 11AM-1PM at BlackFinn Ameripub</small></b></i>
+    <columns small="12" large="6" mc:edit="event4_body">
+      <center class="text-center">
+        <h3 class="text-center"><i>New Member Brunch</i></h3>
+        <i class="serif-font-family">Sunday, August 14, 11AM-1PM at BlackFinn Ameripub</i>
+      </center>
       <spacer size="8"></spacer>
       <p>New to YWA? All new members are invited to join us for brunch! Enjoy complimentary appetizers and great company, while learning more about the Young Women's Alliance and how you can be involved!</p>
-      <center><button class="primary" href="http://zurb.com">Reserve your spot!</button></center>
+      <center><button class="primary" href="http://zurb.com">RSVP</button></center>
     </columns>
   </row><!-- /Event 4 -->
 
@@ -156,7 +170,7 @@ subject: Young Women's Alliance Newsletter
 
         <spacer size="32"></spacer>
 
-        <h2 class="text-center primary"><i><b>Member of the Month</b></i></h2>
+        <h1 class="text-center text-blue"><i>Member of the Month</i></h1>
 
         <spacer size="16"></spacer>
 
@@ -168,13 +182,13 @@ subject: Young Women's Alliance Newsletter
         <spacer size="16"></spacer>
 
         <center>
-          <img mc:edit="member-of-the-month_headeshot" class="round" src="http://placehold.it/200x200/663399" alt="">
+          <img mc:edit="member-of-the-month_headeshot" class="round" src="http://placehold.it/200x200/F1EB16" alt="">
         </center>
 
         <spacer size="16"></spacer>
         <spacer size="16"></spacer>
 
-        <h5 mc:edit="member-of-the-month_name" class="text-center"><strong>Kathryn Garza</strong></h5>
+        <h3 mc:edit="member-of-the-month_name" class="text-center">Kathryn Garza</h3>
 
         <spacer size="16"></spacer>
 
@@ -212,12 +226,13 @@ subject: Young Women's Alliance Newsletter
         <p class="body-text" mc:edit="gogirl_1" mc:repeatable>
           <b><i class="serif-font-family">Kathryn Garza,</i></b> Hillary Clinton Delegate. Kathryn attended DNC and live-tweeted from YWA channels, helping us to join in on a the conversation. Thanks, Kathryn!
         </p>
+
+          <spacer size="8"></spacer>
+
         <p class="body-text" mc:edit="gogirl_2" mc:repeatable>
           <b><i class="serif-font-family">Kathryn Garza,</i></b> Hillary Clinton Delegate. Kathryn attended DNC and live-tweeted from YWA channels, helping us to join in on a the conversation. Thanks, Kathryn!
         </p>
-        <p class="body-text serif-font-family" mc:edit="gogirl_3" mc:repeatable>
-          <b><i class="serif-font-family">Kathryn Garza,</i></b> Hillary Clinton Delegate. Kathryn attended DNC and live-tweeted from YWA channels, helping us to join in on a the conversation. Thanks, Kathryn!
-        </p>
+
       </callout>
 
     </columns>
@@ -238,20 +253,21 @@ subject: Young Women's Alliance Newsletter
 
       <spacer size="8"></spacer>
 
-      <p class="text-center" mc:edit="copyright"><small>Copyright © 2016 Young Women's Alliance, All rights reserved.</small></p>
-      <p class="text-center"><small>You are receiving this email because you opted in.</small></p>
+      <p class="text-center" mc:edit="copyright"><small>Copyright © *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</small></p>
+      <p class="text-center"><small>*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*</small></p>
       <spacer size="8"></spacer>
-      <p class="text-center" mc:edit="address"> <small>
-        *|HTML:LIST_ADDRESS_HTML|* *|END:IF|* </small>
-      </p>
 
-      <p class="text-center"><small><a href="#">Add us to your address book</a></small></p>
+      <center class="text-center">
+        <p class="text-center" mc:edit="address">
+          <small> *|HTML:LIST_ADDRESS_HTML|* *|END:IF|* </small>
+        </p>
+      </center>
 
       <spacer size="16"></spacer>
 
       <p class="text-center">
         <small>Want to change how you receive these emails?</small><br>
-        <small>You can <a href="">update your preferences</a> or <a href="">unsubscribe</a> from this list </small>
+        <small>You can <a href="*|UPDATE_PROFILE|*">update your preferences</a> or <a href="*|UNSUB|*">unsubscribe</a> from this list </small>
       </p>
 
       <spacer size="32"></spacer>
