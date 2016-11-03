@@ -22,3 +22,62 @@ th.callout-inner.blue-solid {
   border: 1px solid $light-blue;
   color: #0a0a0a;
 }
+
+.sans-serif-font-family {
+  font-family: $body-font-family !important;
+}
+
+.serif-font-family {
+  font-family: $header-font-family !important;
+  letter-spacing: 0.08px;
+}
+
+
+.text-blue {
+  color: $primary-color;
+}
+
+.menu-item {
+  img {
+    width: 25px;
+  }
+}
+
+table.button table td a {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 596px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  h6 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+
+  table.body .menu-item  {
+    img {
+      width: 30px;
+    }
+  }
+}
