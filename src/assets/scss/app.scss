@@ -24,7 +24,7 @@ table.menu td.menu-item a, table.menu th.menu-item a {
 }
 
 .callout-inner.blue-background {
-  border: 2px solid transparent;
+  border: none;
   background-color: lighten($primary-color, 30%);
   background: lighten($primary-color, 30%);
 }
