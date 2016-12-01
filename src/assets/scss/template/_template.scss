@@ -5,11 +5,15 @@
 body,
 html,
 .body {
-  background: white !important;
+  background: #f3f3f3 !important;
 }
 
 .container.header {
-  background: white;
+  background: #f3f3f3;
+}
+
+table.footer {
+  background: #f3f3f3;
 }
 
 .body-drip {

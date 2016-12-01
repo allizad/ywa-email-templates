@@ -19,6 +19,10 @@ table.menu td.menu-item a, table.menu th.menu-item a {
   color: #0a0a0a;
 }
 
+table.callout {
+  margin-bottom: 0;
+}
+
 .callout-inner.blue-border {
   border: 2px solid $primary-color;
 }
