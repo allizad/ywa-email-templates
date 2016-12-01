@@ -27,11 +27,38 @@ table.callout {
   border: 2px solid $primary-color;
 }
 
+/**
+* @tab Background
+* @tip Set the color for the content background.
+*/
+
 .callout-inner.blue-background {
   border: none;
-  background-color: lighten($primary-color, 30%);
-  background: lighten($primary-color, 30%);
+  /*@editable*/ background-color: lighten($primary-color, 30%);
+  /*@editable*/ background: lighten($primary-color, 30%);
 }
+
+
+/**
+* @tab Button
+* @section text color
+* @tip Set the text color of the CTA Button.
+*/
+a.button-text-color {
+  /*@editable*/ color: #fefefe
+}
+
+/**
+* @tab Button
+* @section button color
+* @tip Set the text color of the CTA Button.
+*/
+td.button-wrapper {
+  /*@editable*/ background:#76adcb;
+  /*@editable*/ border:2px solid #76adcb;
+}
+
+
 
 p.body-text {
   max-width: 500px;
