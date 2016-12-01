@@ -11,8 +11,22 @@ img.ywa-header {
   margin-top: -22px;
 }
 
+img#ywa-menu-image {
+  width: 100%;
+}
+
+table.menu td.menu-item a, table.menu th.menu-item a {
+  color: #0a0a0a;
+}
+
 .callout-inner.blue-border {
   border: 2px solid $primary-color;
+}
+
+.callout-inner.blue-background {
+  border: 2px solid transparent;
+  background-color: lighten($primary-color, 30%);
+  background: lighten($primary-color, 30%);
 }
 
 p.body-text {
@@ -79,9 +93,9 @@ table.button table td a {
     font-size: 14px;
   }
 
-  table.body .menu-item  {
-    img {
-      width: 30px;
-    }
-  }
+  // table.body .menu-item  {
+  //   img {
+  //     width: 30px;
+  //   }
+  // }
 }
